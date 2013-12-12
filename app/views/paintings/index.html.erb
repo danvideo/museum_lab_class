@@ -2,9 +2,14 @@
 <p>Find me in app/views/paintings/index.html.erb</p>
 
 
+<%= button_to "Add Painting", new_painting_path, method: :get %>
+
 <%= form_tag '/', method: :get do %>
   <%= search_field_tag :q, params[:q] %>
   <%= submit_tag "Search" %>
 <% end %>
 
 <%= render 'list' %>
+<%= render 'list_artists' %>
+<%= render 'list_museums' %>
+

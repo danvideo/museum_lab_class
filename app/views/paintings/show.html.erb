@@ -1,2 +1,5 @@
-<h1>Paintings#show</h1>
-<p>Find me in app/views/paintings/show.html.erb</p>
+<h1> <%= @painting.title %> </h1>
+By: <%= @painting.artist.name %> <br>
+Location: <%= @painting.museum.name %> <br>
+<%= image_tag("#{@painting.url}") %>
+
