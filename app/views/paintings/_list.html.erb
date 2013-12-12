@@ -1,0 +1,11 @@
+<% @paintings.each do |painting| %>
+  <section>
+    <header>
+     <b><%= link_to painting.title, painting %></b>
+    </header>
+    <p>By: <%= painting.artist.name %></p>
+    <p>Housed in: <%= painting.museum.name %></p>
+   <%= image_tag ("#{painting.url}") %>
+  </section>
+  <br/>
+<% end %>

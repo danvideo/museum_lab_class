@@ -41,13 +41,13 @@ Painting.create [
     title: "Mona Lisa",
     artist_id: 1,
     museum_id: 3,
-    url: "http://en.wikipedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
+    url: "http://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
   },
   {
     title: "Sistine Chapel",
     artist_id: 3,
     museum_id: 2,
-    url: "http://en.wikipedia.org/wiki/File:Sistina-interno.jpg"
+    url: "http://upload.wikimedia.org/wikipedia/commons/8/82/Sistina-interno.jpg"
   },
   {
     title: "Statue of David",
@@ -59,13 +59,13 @@ Painting.create [
     title: "St. John Statue",
     artist_id: 4,
     museum_id: 1,
-    url: "http://en.wikipedia.org/wiki/File:Sangiovannievangelista.jpg"
+    url: "http://upload.wikimedia.org/wikipedia/commons/d/d7/Michelangelo%27s_David.JPG"
   },
   {
     title: "Self Portrait",
     artist_id: 1,
     museum_id: 4,
-    url: "http://en.wikipedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_-_WGA14795.jpg"
+    url: "http://upload.wikimedia.org/wikipedia/commons/f/f7/Francesco_Melzi_-_Portrait_of_Leonardo_-_WGA14795.jpg"
   }
 ]
 
